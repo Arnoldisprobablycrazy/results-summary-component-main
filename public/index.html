@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;600;700&family=Outfit:wght@400;600;700&family=Young+Serif&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <main class="flex min-h-screen flex-col items-center justify-center bg-Paleblue">
+    <div class="bg-White w-[450px] h-[300px] rounded-3xl font-hanken flex">
+      <aside class="py-8 w-1/2  rounded-3xl flex flex-col justify-between items-center gap-4 bg-gradient-to-b from-slateblue-light to-slateblue-dark">
+        <div class="text-sm text-Paleblue">Your Results</div>
+        <div class="flex flex-col justify-center items-center w-24 h-24 rounded-full text-white bg-gradient-to-b from-Violetblue to-slate-blue-dark font-bold text-2xl"><span class="text-4xl font-bold">76</span><span class="block text-xs text-gray-400"> of 100</span></div>
+        <div class="flex flex-col gap-2 text-center w-[200px] ">
+        <div class="text-white text-xl">Great</div>
+        <div class="text-Paleblue text-center text-sm">You scored higher than 65% of the people who have taken these tests.</div>
+        </div>
+      </aside>
+      <div class="px-4 py-2 flex flex-col w-1/2 justify-between">
+       <h1 class="text-lg font-hanken font-semibold">Summary</h1>
+       <ul class="flex flex-col gap-2">
+        <li class="bg-Lightred-light flex justify-between rounded-lg p-2 ">
+          <div class="flex gap-1">
+          <img src="/assets/images/icon-reaction.svg">
+          <span class="text-Lightred-default text-sm ">Reaction</span>
+          </div>
+          <div>80<span class="text-gray-600">/100</span></div>
+        </li>
+        <li class="bg-Orangeyyellow-light flex justify-between rounded-lg p-2">
+          <div class="flex gap-1">
+          <img src="/assets/images/icon-memory.svg">
+          <span class="text-Orangeyyellow-default text-sm">Memory</span>
+          </div>
+          <div>92<span class="text-gray-600">/100</span></div>
+        </li>
+        <li class="bg-Greenteal-light flex justify-between rounded-lg p-2">
+          <div class="flex gap-1">
+          <img src="/assets/images/icon-verbal.svg">
+          <span class="text-Greenteal-default text-sm">Verbal</span>
+          </div>
+          <div>61<span class="text-gray-600">/100</span></div>
+        </li>
+        <li class="bg-Cobaltblue-light flex justify-between rounded-lg p-2">
+          <div class="flex gap-1">
+          <img src="/assets/images/icon-visual.svg">
+          <span class="text-Cobaltblue-default text-sm">Visual</span>
+          </div>
+          <div>72<span class="text-gray-600">/100</span></div>
+        </li>
+       
+       </ul>
+       <button class="text-sm bg-Darkgrayblue text-Paleblue px-7 py-2 rounded-3xl w-full mt-2">Continue</button>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
